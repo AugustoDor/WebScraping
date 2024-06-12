@@ -5,6 +5,7 @@ Es un proyecto simple, solo se enfoca en la práctica del WebScraping y su apren
 
 ## **Contexto**
 El proyecto tiene como objetivo extraer datos de Inmuebles y en base a ellos calcular distintas métricas relacionadas con el beneficio posterior a adquirir el inmueble, esas métricas se pueden observar en **`calculos.py`**
+Puedes realizar cambios en las funciones para adecuar los calculos a lo que necesitas.
 
 **Nota**: Este proyecto es únicamente con fines educativos y de aprendizaje. No se busca que con él se tomen decisiones de ningún tipo. Los datos pertenecen a la página de donde fueron extraídos [zonaprop.com](https://www.zonaprop.com.ar/).
 
