@@ -14,16 +14,14 @@ def monto_pagar(costo_compra):
 
 
 #ingreso bruto es el total ganado con el alquiler sin tener en cuenta gastos
-def ingreso_bruto_alquiler(costo_compra):
-    ingreso_bruto_mensual = 0
+def ingreso_bruto_alquiler(costo_compra, ingreso_bruto_mensual):
     ingreso_bruto_anual = ingreso_bruto_mensual * 12
     rentabilidad_bruta = (ingreso_bruto_anual * 100) / costo_compra
     return ingreso_bruto_mensual, ingreso_bruto_anual, rentabilidad_bruta
 
 
 #ingreso neto antes de impuesto es el total ganado con el alquiler teniendo en cuenta los gastos pero no los impuestos
-def ingreso_neto_alquiler(ingresos_brutos, costo_compra):
-    total_pagar_mensual = 0
+def ingreso_neto_alquiler(ingresos_brutos, costo_compra, total_pagar_mensual):
     ingresos_netos = ingresos_brutos - total_pagar_mensual
     rentabilidad_neta = (ingresos_netos * 100) / costo_compra
     return ingresos_netos, rentabilidad_neta
